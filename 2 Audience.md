@@ -1,0 +1,2 @@
+## Audience
+This guide is for the users who begin studying network administration or data security, and for anyone interested in network analysis or concerned with their data safety. You will learn how to download, install and set up Wireshark and use it for capturing and filtering network traffic using the HTTP protocol. This guide applies to OS Windows.
