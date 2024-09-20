@@ -4,14 +4,18 @@ Wireshark offers two types of filters: **Capture Filters** to capture the select
 ### Capture Filters
 Prior to capturing the packets, assign a filter to the selected interface using the following options:
 - The *Capture filter* field in the welcome screen
+
 ![capture filter field](/media/5-capture-filters.jpg)
 
 - The **Capture** menu on the main toolbar
+
 ![capture menu](/media/6-capture-options.jpg)
+
 1. Select **Capture > Capture Options**.
 2. In the filter line, enter the necessary filter. It will be assigned to the selected interface.
 
 The available filters show in the **Capture filters** section. Here, you can add and remove them.
+
 ![list of filters](/media/7-add-remove-filters.jpg)
 
 ### Display Filters
@@ -29,4 +33,5 @@ The available filters show in the **Capture filters** section. Here, you can add
 ![filtering option 4](/media/11-display-filters-case4.jpg)
 
 To trace the full HTTP stream, right-click on the HTTP packet and choose **Follow > HTTP Stream**. You will see a window with the full stream: request (in red) and response (in blue).
+
 ![full HTTP stream](/media/12-stream-outcome.jpg)
