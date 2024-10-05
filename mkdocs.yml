@@ -1,1 +1,70 @@
 site_name: Wireshark Traffic Filtering Guide
+site_description: User guide on capturing and filtering traffic with Wireshark. Documentation in English for my portfolio.
+
+theme:
+  name: material
+  logo:
+  font:
+    text: Montserrat
+    code: Montserrat Mono
+  features:
+    #- navigation.sections
+    - navigation.path
+    - navigation.indexes
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    #- Navigation sections
+    #- navigation.expand
+    #- toc.integrate
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  language: en
+  palette:
+    - scheme: default 
+      toggle:
+        icon: material/weather-sunny
+        name: Turn on dark theme
+      primary: blue
+      accent: deep blue
+
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Turn on light theme
+      primary: deep purple
+      accent: purple
+
+nav:
+    - Contents: index.md
+    - Download and install: Contents/1._Download_and_install.md
+    - Setup: Contents/2._Setup.md
+    - Capture HTTP traffic: Contents/3._Capture_HTTP_traffic.md
+    - Filter HTTP traffic: Contents/4._Filter_HTTP_traffic.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/AnnaAshen
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: |
+  &copy; 2024 NOVILLERO
