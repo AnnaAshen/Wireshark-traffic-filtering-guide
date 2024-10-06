@@ -39,7 +39,7 @@ theme:
       accent: purple
 
 nav:
-    - Contents: index.md
+    - Getting started: index.md
     - Download and install: Contents/1_Download_and_install.md
     - Setup: Contents/2_Setup.md
     - Capture HTTP traffic: Contents/3_Capture_HTTP_traffic.md
