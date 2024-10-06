@@ -40,10 +40,10 @@ theme:
 
 nav:
     - Contents: index.md
-    - Download and install: Contents/1._Download_and_install.md
-    - Setup: Contents/2._Setup.md
-    - Capture HTTP traffic: Contents/3._Capture_HTTP_traffic.md
-    - Filter HTTP traffic: Contents/4._Filter_HTTP_traffic.md
+    - Download and install: contents/1._Download_and_install.md
+    - Setup: contents/2._Setup.md
+    - Capture HTTP traffic: contents/3._Capture_HTTP_traffic.md
+    - Filter HTTP traffic: contents/4._Filter_HTTP_traffic.md
 
 extra:
   social:
