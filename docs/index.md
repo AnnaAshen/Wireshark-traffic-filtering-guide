@@ -7,7 +7,7 @@ This guide is for the users who begin studying network administration or data se
 
 ## Contents
 
-1. [Download and install](/Contents/1._Download_and_install)
-2. [Setup](/Contents/2._Setup)
-3. [Capture HTTP traffic](/Contents/3._Capture_HTTP_traffic)
-4. [Filter HTTP traffic](/Contents/4._Filter_HTTP_traffic)
+1. [Download and install](/contents/Download_and_install)
+2. [Setup](/contents/Setup)
+3. [Capture HTTP traffic](/contents/Capture_HTTP_traffic)
+4. [Filter HTTP traffic](/contents/Filter_HTTP_traffic)
